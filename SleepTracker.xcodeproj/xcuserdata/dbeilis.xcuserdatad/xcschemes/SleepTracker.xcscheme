@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1403C5341D109B7D007AF22E"
+               BlueprintIdentifier = "13C1552D1D61026A00EA7FC4"
                BuildableName = "SleepTracker.app"
                BlueprintName = "SleepTracker"
                ReferencedContainer = "container:SleepTracker.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1403C5341D109B7D007AF22E"
+            BlueprintIdentifier = "13C1552D1D61026A00EA7FC4"
             BuildableName = "SleepTracker.app"
             BlueprintName = "SleepTracker"
             ReferencedContainer = "container:SleepTracker.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1403C5341D109B7D007AF22E"
+            BlueprintIdentifier = "13C1552D1D61026A00EA7FC4"
             BuildableName = "SleepTracker.app"
             BlueprintName = "SleepTracker"
             ReferencedContainer = "container:SleepTracker.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1403C5341D109B7D007AF22E"
+            BlueprintIdentifier = "13C1552D1D61026A00EA7FC4"
             BuildableName = "SleepTracker.app"
             BlueprintName = "SleepTracker"
             ReferencedContainer = "container:SleepTracker.xcodeproj">

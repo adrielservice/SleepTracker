@@ -7,114 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		134D878B1D600DE400A367E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134D87861D600DE400A367E0 /* AppDelegate.swift */; };
-		134D878C1D600DE400A367E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 134D87871D600DE400A367E0 /* Assets.xcassets */; };
-		134D878E1D600DE400A367E0 /* SleepTracker.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 134D87891D600DE400A367E0 /* SleepTracker.entitlements */; };
-		134D878F1D600DE400A367E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134D878A1D600DE400A367E0 /* ViewController.swift */; };
-		13C155161D60120800EA7FC4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C155151D60120800EA7FC4 /* Default-568h@2x.png */; };
-		13C155221D6015D800EA7FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C1551A1D60154200EA7FC4 /* LaunchScreen.storyboard */; };
-		13C155231D6015D800EA7FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C1551C1D60154200EA7FC4 /* Main.storyboard */; };
-		1403C54C1D109BD7007AF22E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1403C54B1D109BD7007AF22E /* HealthKit.framework */; };
+		13C155331D61026B00EA7FC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C155321D61026B00EA7FC4 /* main.m */; };
+		13C155361D61026B00EA7FC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C155351D61026B00EA7FC4 /* AppDelegate.m */; };
+		13C1553C1D61026B00EA7FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C1553A1D61026B00EA7FC4 /* Main.storyboard */; };
+		13C1553E1D61026B00EA7FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13C1553D1D61026B00EA7FC4 /* Assets.xcassets */; };
+		13C155411D61026B00EA7FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13C1553F1D61026B00EA7FC4 /* LaunchScreen.storyboard */; };
+		13C155491D61038000EA7FC4 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 13C155481D61038000EA7FC4 /* PodFile */; };
+		13C1554C1D610AFE00EA7FC4 /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C1554B1D610AFE00EA7FC4 /* RMViewController.m */; };
+		13C155521D612C0700EA7FC4 /* HealthKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C155511D612C0700EA7FC4 /* HealthKitManager.m */; };
+		13CEB9B61D613DB300B6330C /* SleepTracker.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 13CEB9B51D613DB300B6330C /* SleepTracker.entitlements */; };
+		13CEB9B81D613E1800B6330C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEB9B71D613E1800B6330C /* HealthKit.framework */; };
+		CE4A417D6CE4040BE7ABE1AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 138BB210DFFF498599CE6EBD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		134D87861D600DE400A367E0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SleepTracker/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
-		134D87871D600DE400A367E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SleepTracker/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		134D87881D600DE400A367E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SleepTracker/Info.plist; sourceTree = SOURCE_ROOT; };
-		134D87891D600DE400A367E0 /* SleepTracker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = SleepTracker.entitlements; path = SleepTracker/SleepTracker.entitlements; sourceTree = SOURCE_ROOT; };
-		134D878A1D600DE400A367E0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = SleepTracker/ViewController.swift; sourceTree = SOURCE_ROOT; };
-		13C155151D60120800EA7FC4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		13C1551B1D60154200EA7FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		13C1551D1D60154200EA7FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
-		1403C5351D109B7D007AF22E /* SleepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1403C54B1D109BD7007AF22E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		07FA29C78DFAD08E9372CC89 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		138BB210DFFF498599CE6EBD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C1552E1D61026A00EA7FC4 /* SleepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C155321D61026B00EA7FC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13C155341D61026B00EA7FC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13C155351D61026B00EA7FC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13C1553B1D61026B00EA7FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13C1553D1D61026B00EA7FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13C155401D61026B00EA7FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13C155421D61026B00EA7FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13C155481D61038000EA7FC4 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		13C1554A1D610AFE00EA7FC4 /* RMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMViewController.h; sourceTree = "<group>"; };
+		13C1554B1D610AFE00EA7FC4 /* RMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMViewController.m; sourceTree = "<group>"; };
+		13C155501D612C0700EA7FC4 /* HealthKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitManager.h; sourceTree = "<group>"; };
+		13C155511D612C0700EA7FC4 /* HealthKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitManager.m; sourceTree = "<group>"; };
+		13CEB9B51D613DB300B6330C /* SleepTracker.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SleepTracker.entitlements; sourceTree = "<group>"; };
+		13CEB9B71D613E1800B6330C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		8A77C9590DEBAA84B6DB2139 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1403C5321D109B7D007AF22E /* Frameworks */ = {
+		13C1552B1D61026A00EA7FC4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1403C54C1D109BD7007AF22E /* HealthKit.framework in Frameworks */,
+				CE4A417D6CE4040BE7ABE1AD /* libPods.a in Frameworks */,
+				13CEB9B81D613E1800B6330C /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13C155191D60154200EA7FC4 /* Base.lproj */ = {
+		13C155251D61026A00EA7FC4 = {
 			isa = PBXGroup;
 			children = (
-				13C1551A1D60154200EA7FC4 /* LaunchScreen.storyboard */,
-				13C1551C1D60154200EA7FC4 /* Main.storyboard */,
-			);
-			name = Base.lproj;
-			path = SleepTracker/Base.lproj;
-			sourceTree = SOURCE_ROOT;
-		};
-		1403C52C1D109B7D007AF22E = {
-			isa = PBXGroup;
-			children = (
-				13C155151D60120800EA7FC4 /* Default-568h@2x.png */,
-				1403C54B1D109BD7007AF22E /* HealthKit.framework */,
-				1403C5371D109B7D007AF22E /* SleepTracker */,
-				1403C5361D109B7D007AF22E /* Products */,
+				13C155481D61038000EA7FC4 /* PodFile */,
+				13C155301D61026B00EA7FC4 /* SleepTracker */,
+				13C1552F1D61026A00EA7FC4 /* Products */,
+				D422BCC43EFB766E60AC978C /* Pods */,
+				4E9524316B56D427BB54CF8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1403C5361D109B7D007AF22E /* Products */ = {
+		13C1552F1D61026A00EA7FC4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1403C5351D109B7D007AF22E /* SleepTracker.app */,
+				13C1552E1D61026A00EA7FC4 /* SleepTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1403C5371D109B7D007AF22E /* SleepTracker */ = {
+		13C155301D61026B00EA7FC4 /* SleepTracker */ = {
 			isa = PBXGroup;
 			children = (
-				13C155191D60154200EA7FC4 /* Base.lproj */,
-				134D87871D600DE400A367E0 /* Assets.xcassets */,
-				134D87891D600DE400A367E0 /* SleepTracker.entitlements */,
-				134D87861D600DE400A367E0 /* AppDelegate.swift */,
-				134D878A1D600DE400A367E0 /* ViewController.swift */,
-				134D87881D600DE400A367E0 /* Info.plist */,
+				13C155311D61026B00EA7FC4 /* Supporting Files */,
+				13C1554A1D610AFE00EA7FC4 /* RMViewController.h */,
+				13C1554B1D610AFE00EA7FC4 /* RMViewController.m */,
+				13C155341D61026B00EA7FC4 /* AppDelegate.h */,
+				13C155351D61026B00EA7FC4 /* AppDelegate.m */,
+				13C155501D612C0700EA7FC4 /* HealthKitManager.h */,
+				13C155511D612C0700EA7FC4 /* HealthKitManager.m */,
 			);
-			name = SleepTracker;
-			path = HealthKitDemo;
+			path = SleepTracker;
+			sourceTree = "<group>";
+		};
+		13C155311D61026B00EA7FC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13C1553D1D61026B00EA7FC4 /* Assets.xcassets */,
+				13C1553A1D61026B00EA7FC4 /* Main.storyboard */,
+				13C1553F1D61026B00EA7FC4 /* LaunchScreen.storyboard */,
+				13C155421D61026B00EA7FC4 /* Info.plist */,
+				13CEB9B51D613DB300B6330C /* SleepTracker.entitlements */,
+				13C155321D61026B00EA7FC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E9524316B56D427BB54CF8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CEB9B71D613E1800B6330C /* HealthKit.framework */,
+				138BB210DFFF498599CE6EBD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D422BCC43EFB766E60AC978C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07FA29C78DFAD08E9372CC89 /* Pods.debug.xcconfig */,
+				8A77C9590DEBAA84B6DB2139 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1403C5341D109B7D007AF22E /* SleepTracker */ = {
+		13C1552D1D61026A00EA7FC4 /* SleepTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1403C5471D109B7D007AF22E /* Build configuration list for PBXNativeTarget "SleepTracker" */;
+			buildConfigurationList = 13C155451D61026B00EA7FC4 /* Build configuration list for PBXNativeTarget "SleepTracker" */;
 			buildPhases = (
-				1403C5311D109B7D007AF22E /* Sources */,
-				1403C5321D109B7D007AF22E /* Frameworks */,
-				1403C5331D109B7D007AF22E /* Resources */,
+				216EE41AA9AE08B72D5582EF /* Check Pods Manifest.lock */,
+				13C1552A1D61026A00EA7FC4 /* Sources */,
+				13C1552B1D61026A00EA7FC4 /* Frameworks */,
+				13C1552C1D61026A00EA7FC4 /* Resources */,
+				7DC7AF0742FBE2A57E5E5C3D /* Embed Pods Frameworks */,
+				0DDCF612049AF8523E9E2F2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SleepTracker;
-			productName = HealthKitDemo;
-			productReference = 1403C5351D109B7D007AF22E /* SleepTracker.app */;
+			productName = SleepTracker;
+			productReference = 13C1552E1D61026A00EA7FC4 /* SleepTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1403C52D1D109B7D007AF22E /* Project object */ = {
+		13C155261D61026A00EA7FC4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Benoit PASQUIER";
+				ORGANIZATIONNAME = "Adriel Service";
 				TargetAttributes = {
-					1403C5341D109B7D007AF22E = {
+					13C1552D1D61026A00EA7FC4 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = JCY6MJF6H2;
 						SystemCapabilities = {
@@ -125,7 +161,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1403C5301D109B7D007AF22E /* Build configuration list for PBXProject "SleepTracker" */;
+			buildConfigurationList = 13C155291D61026A00EA7FC4 /* Build configuration list for PBXProject "SleepTracker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -133,64 +169,114 @@
 				en,
 				Base,
 			);
-			mainGroup = 1403C52C1D109B7D007AF22E;
-			productRefGroup = 1403C5361D109B7D007AF22E /* Products */;
+			mainGroup = 13C155251D61026A00EA7FC4;
+			productRefGroup = 13C1552F1D61026A00EA7FC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1403C5341D109B7D007AF22E /* SleepTracker */,
+				13C1552D1D61026A00EA7FC4 /* SleepTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1403C5331D109B7D007AF22E /* Resources */ = {
+		13C1552C1D61026A00EA7FC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13C155221D6015D800EA7FC4 /* LaunchScreen.storyboard in Resources */,
-				13C155231D6015D800EA7FC4 /* Main.storyboard in Resources */,
-				134D878E1D600DE400A367E0 /* SleepTracker.entitlements in Resources */,
-				134D878C1D600DE400A367E0 /* Assets.xcassets in Resources */,
-				13C155161D60120800EA7FC4 /* Default-568h@2x.png in Resources */,
+				13CEB9B61D613DB300B6330C /* SleepTracker.entitlements in Resources */,
+				13C155411D61026B00EA7FC4 /* LaunchScreen.storyboard in Resources */,
+				13C1553E1D61026B00EA7FC4 /* Assets.xcassets in Resources */,
+				13C155491D61038000EA7FC4 /* PodFile in Resources */,
+				13C1553C1D61026B00EA7FC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DDCF612049AF8523E9E2F2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		216EE41AA9AE08B72D5582EF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC7AF0742FBE2A57E5E5C3D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1403C5311D109B7D007AF22E /* Sources */ = {
+		13C1552A1D61026A00EA7FC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134D878B1D600DE400A367E0 /* AppDelegate.swift in Sources */,
-				134D878F1D600DE400A367E0 /* ViewController.swift in Sources */,
+				13C155361D61026B00EA7FC4 /* AppDelegate.m in Sources */,
+				13C155331D61026B00EA7FC4 /* main.m in Sources */,
+				13C155521D612C0700EA7FC4 /* HealthKitManager.m in Sources */,
+				13C1554C1D610AFE00EA7FC4 /* RMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13C1551A1D60154200EA7FC4 /* LaunchScreen.storyboard */ = {
+		13C1553A1D61026B00EA7FC4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13C1551B1D60154200EA7FC4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		13C1551C1D60154200EA7FC4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13C1551D1D60154200EA7FC4 /* Base */,
+				13C1553B1D61026B00EA7FC4 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13C1553F1D61026B00EA7FC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13C155401D61026B00EA7FC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1403C5451D109B7D007AF22E /* Debug */ = {
+		13C155431D61026B00EA7FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,12 +317,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1403C5461D109B7D007AF22E /* Release */ = {
+		13C155441D61026B00EA7FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,63 +354,58 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1403C5481D109B7D007AF22E /* Debug */ = {
+		13C155461D61026B00EA7FC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FA29C78DFAD08E9372CC89 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SleepTracker/SleepTracker.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/SleepTracker/Info.plist";
+				INFOPLIST_FILE = SleepTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrielservice.SleepTracker;
-				PRODUCT_NAME = SleepTracker;
-				PROVISIONING_PROFILE = "ed09ac35-9dc4-4a9d-b77d-a54158cb4100";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		1403C5491D109B7D007AF22E /* Release */ = {
+		13C155471D61026B00EA7FC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A77C9590DEBAA84B6DB2139 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SleepTracker/SleepTracker.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "$(SRCROOT)/SleepTracker/Info.plist";
+				INFOPLIST_FILE = SleepTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adrielservice.SleepTracker;
-				PRODUCT_NAME = SleepTracker;
-				PROVISIONING_PROFILE = "ed09ac35-9dc4-4a9d-b77d-a54158cb4100";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1403C5301D109B7D007AF22E /* Build configuration list for PBXProject "SleepTracker" */ = {
+		13C155291D61026A00EA7FC4 /* Build configuration list for PBXProject "SleepTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1403C5451D109B7D007AF22E /* Debug */,
-				1403C5461D109B7D007AF22E /* Release */,
+				13C155431D61026B00EA7FC4 /* Debug */,
+				13C155441D61026B00EA7FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1403C5471D109B7D007AF22E /* Build configuration list for PBXNativeTarget "SleepTracker" */ = {
+		13C155451D61026B00EA7FC4 /* Build configuration list for PBXNativeTarget "SleepTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1403C5481D109B7D007AF22E /* Debug */,
-				1403C5491D109B7D007AF22E /* Release */,
+				13C155461D61026B00EA7FC4 /* Debug */,
+				13C155471D61026B00EA7FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1403C52D1D109B7D007AF22E /* Project object */;
+	rootObject = 13C155261D61026A00EA7FC4 /* Project object */;
 }
